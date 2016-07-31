@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/compose_fragment_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.buyhatke.smshatke.ComposeFragment">
+
+
+    <EditText
+        android:id="@+id/compose_recipients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@null"
+        android:hint="@string/hint_contacts"
+
+        android:inputType="phone"
+        android:padding="16dp" />
+
+    <include
+        layout="@layout/compose_view"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:padding="16dp" />
+
+
+</RelativeLayout>

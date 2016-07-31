@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.github.library.bubbleview.BubbleLinearLayout
+        android:id="@+id/bubble_layout_in"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:angle="4dp"
+        app:arrowHeight="10dp"
+        app:arrowLocation="top"
+        app:arrowPosition="10dp"
+        app:arrowWidth="8dp"
+        app:bubbleColor="#7EC0EE">
+
+        <TextView
+            android:id="@+id/body_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:padding="4dp"
+            android:text="BubbleLinearLayout Text"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/date_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:padding="4dp"
+            android:text="wed,12:30"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+    </com.github.library.bubbleview.BubbleLinearLayout>
+
+</RelativeLayout>

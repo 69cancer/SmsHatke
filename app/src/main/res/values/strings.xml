@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SmsHatke</string>
+    <string name="hint_no_messages">No messages yet.\nClick the + to send one!</string>
+    <string name="send_msg">SEND</string>
+    <string name="date">wed,31/07</string>
+    <string name="hint_reply">Enter a message</string>
+    <string name="hint_contacts">comma separated phone nos.</string>
+    <string name="hint_search">Search something</string>
+    <string name="action_search">Search</string>
+</resources>
