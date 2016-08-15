@@ -7,7 +7,7 @@ SmsHatke is a mobile messaging application that has following features :
   * Full text search is implemented in the app i.e. the user will be able to search through all his SMS's.
 
 ### Libraries used:
-The following dependencies are bundled with surespot, but are under
+The following dependencies are bundled with it, but are under
 terms of a separate license -
 * [FloatingActionButton](https://github.com/makovkastar/FloatingActionButton)
 * [BubbleView](https://github.com/lguipeng/BubbleView)
